@@ -1,0 +1,340 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-09-05T00:55:27.638Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3039000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.tau.steps.Steps.Setup() in file:/D:/cucmber/tau-cucumber-course/target/test-classes/"
+            }
+          }
+        ],
+        "line": 11,
+        "name": ": login with valid credential",
+        "description": "",
+        "id": "login-funtionality;:-login-with-valid-credential;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 237000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.tau.steps.Steps.close() in file:/D:/cucmber/tau-cucumber-course/target/test-classes/"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3199000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am in the applicion",
+            "match": {
+              "location": "com.tau.steps.Steps.i_am_in_the_applicion() in file:/D:/cucmber/tau-cucumber-course/target/test-classes/"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1583000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter valid credentials \"test1234\" and \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"test1234\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 41
+                }
+              ],
+              "location": "com.tau.steps.Steps.i_enter_valid_credentials(String,String) in file:/D:/cucmber/tau-cucumber-course/target/test-classes/"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1079000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I should be taken to the Overview page",
+            "match": {
+              "location": "com.tau.steps.Steps.i_should_be_taken_to_the_Overview_page() in file:/D:/cucmber/tau-cucumber-course/target/test-classes/"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-09-05T00:55:36.797Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1675000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.tau.steps.Steps.Setup() in file:/D:/cucmber/tau-cucumber-course/target/test-classes/"
+            }
+          }
+        ],
+        "line": 12,
+        "name": ": login with valid credential",
+        "description": "",
+        "id": "login-funtionality;:-login-with-valid-credential;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 178000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.tau.steps.Steps.close() in file:/D:/cucmber/tau-cucumber-course/target/test-classes/"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3234000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am in the applicion",
+            "match": {
+              "location": "com.tau.steps.Steps.i_am_in_the_applicion() in file:/D:/cucmber/tau-cucumber-course/target/test-classes/"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1406000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter valid credentials \"test1234\" and \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"test1234\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 41
+                }
+              ],
+              "location": "com.tau.steps.Steps.i_enter_valid_credentials(String,String) in file:/D:/cucmber/tau-cucumber-course/target/test-classes/"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1327000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I should be taken to the Overview page",
+            "match": {
+              "location": "com.tau.steps.Steps.i_should_be_taken_to_the_Overview_page() in file:/D:/cucmber/tau-cucumber-course/target/test-classes/"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login funtionality",
+    "description": "",
+    "id": "login-funtionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Login.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-09-05T00:55:27.638Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3043000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.tau.steps.Steps.Setup() in file:/D:/cucmber/tau-cucumber-course/target/test-classes/"
+            }
+          }
+        ],
+        "line": 11,
+        "name": ": login with valid credential",
+        "description": "",
+        "id": "login-funtionality;:-login-with-valid-credential;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 328000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.tau.steps.Steps.close() in file:/D:/cucmber/tau-cucumber-course/target/test-classes/"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3031000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am in the applicion",
+            "match": {
+              "location": "com.tau.steps.Steps.i_am_in_the_applicion() in file:/D:/cucmber/tau-cucumber-course/target/test-classes/"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1753000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter valid credentials \"test1234\" and \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"test1234\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 41
+                }
+              ],
+              "location": "com.tau.steps.Steps.i_enter_valid_credentials(String,String) in file:/D:/cucmber/tau-cucumber-course/target/test-classes/"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1057000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I should be taken to the Overview page",
+            "match": {
+              "location": "com.tau.steps.Steps.i_should_be_taken_to_the_Overview_page() in file:/D:/cucmber/tau-cucumber-course/target/test-classes/"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-09-05T00:55:36.864Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1667000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.tau.steps.Steps.Setup() in file:/D:/cucmber/tau-cucumber-course/target/test-classes/"
+            }
+          }
+        ],
+        "line": 12,
+        "name": ": login with valid credential",
+        "description": "",
+        "id": "login-funtionality;:-login-with-valid-credential;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 202000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.tau.steps.Steps.close() in file:/D:/cucmber/tau-cucumber-course/target/test-classes/"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3093000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am in the applicion",
+            "match": {
+              "location": "com.tau.steps.Steps.i_am_in_the_applicion() in file:/D:/cucmber/tau-cucumber-course/target/test-classes/"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2021000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter valid credentials \"test1234\" and \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"test1234\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 41
+                }
+              ],
+              "location": "com.tau.steps.Steps.i_enter_valid_credentials(String,String) in file:/D:/cucmber/tau-cucumber-course/target/test-classes/"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1076000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I should be taken to the Overview page",
+            "match": {
+              "location": "com.tau.steps.Steps.i_should_be_taken_to_the_Overview_page() in file:/D:/cucmber/tau-cucumber-course/target/test-classes/"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login funtionality",
+    "description": "",
+    "id": "login-funtionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Login2.feature",
+    "tags": []
+  }
+]
